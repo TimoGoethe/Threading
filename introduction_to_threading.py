@@ -9,11 +9,11 @@ from threading import Thread, active_count, current_thread, enumerate
 from time import sleep
 
 # Do you want structural sleeps within the program?
-structural_sleep = False
+structural_sleep = True
 # Do you want any sleeps within the program? Enable or disable if need be
-active_sleep = False
+active_sleep = True
 # disable to see what happends if there is no join... it will run until the end (6 minutes long)
-enable_join = False
+enable_join = True
 print("At the beginning,", active_count(), "Threads are active.\n")
 # At the beginning, the main thread is always existing. If you're not using any thread-related
 # modules, then you are programming with the main thread only.
