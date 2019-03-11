@@ -37,4 +37,4 @@ t1.start()  # thread 1
 t2.start()  # thread 2
 t3.start()  # thread 3
 
-
+print("test")
